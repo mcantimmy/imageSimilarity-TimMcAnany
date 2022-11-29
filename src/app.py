@@ -1,16 +1,6 @@
-#from flask import Flask, jsonify
-#
-#app = Flask('FinTechExplained WebServer')
-#
-#@app.route('/')
-#def get_data():
-#    return jsonify(1)
-#
-#if __name__ == '__main__':
-#    app.run()
-
 from flask import Flask
 
+# app configuration for main.py
 UPLOAD_FOLDER = 'static/uploads/'
 
 app = Flask(__name__)
