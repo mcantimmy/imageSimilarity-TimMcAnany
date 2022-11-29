@@ -9,4 +9,4 @@ flask api location: localhost:5000
 
 image location: static/uploads
 
-app: main.py - asks for an image to be selected, runs the kNN model on the given image, and renders list of 10 most similar images in the given set of product images
+app: main.py - asks for an image to be selected, runs the kNN model on the given image, and renders list of 10 most similar images from the given set of product images
